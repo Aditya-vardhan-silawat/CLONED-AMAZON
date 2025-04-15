@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazonlogo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.deliver{
+    font-size: 0.85rem;
+    color: #cccc;
+    margin-left: 15px;
+}
+
+.India{
+    font-size: 1rem;
+    color: white;
+    margin-left: 4px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 5%;
+    justify-content: space-evenly;
+}
+
+
+.all{
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border: none;
+}
+
+.search{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(225, 174, 0);
+    color: black;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.searchicon:hover{
+    background-color: orange;
+}
+
+.Hello{
+    font-size: 0.7rem;
+}
+.account{
+    font-size: 1rem;
+   font-weight: 800; 
+}
+.cart{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: baseline;
+}
+.cartone{
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+
+.pannel{
+    display: flex;
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+}
+.pannelops p {
+    margin-left: 15px;
+}
+.pannelops{
+    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panneldeal{
+    font-weight: 700;
+}
+
+.herosection{
+    background-image: url("image1.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.heromessage{
+    background-color: #f5f6f6;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+.heromessage a{
+    color: #2162A1;
+}
+
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(235, 56, 196);
+}
+
+.box{
+    height: 400px;
+    
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+
+.boximagehealth{
+    background-image: url("healthcare.jpeg");
+    height: 300px ;
+    background-size: cover;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.boxcontent{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.boxcontent p{
+   color: #2162A1;
+}
+
+.boximagegame{
+    background-image: url("BOX2.jpg");
+    background-size: cover;
+    height: 300px ;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.boximagekitchen{
+    background-image: url("BOX3.jpeg");
+    background-size: cover;
+    height: 300px ;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.boximagefashion{
+    background-image: url("box4.jpeg");
+    background-size: cover;
+    height: 300px ;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.boximagenew{
+    background-image: url("BOX5.jpg");
+    background-size: cover;
+    height: 300px ;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.shopfor{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.homeessentials{
+margin-bottom: 46px;
+}
+.upperhome{
+    display: flex;
+}
+
+.cleaningtools{
+    background-image: url("CleaningTool_2x._SY232_CB563137408_.jpg");
+    height: 115px;
+    width: 155px;
+    background-size: cover;
+    margin-right: 10px;
+    
+}
+
+.homestorage{
+    background-image: url("HomeStorage_2x._SY232_CB563137408_.jpg");
+    height: 115px;
+    width: 155px;
+    background-size: cover;
+}
+
+
+.nameingone{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.7rem;
+    color: black;
+    margin-bottom: 8px;
+    margin-top: 1px;
+}
+.lowerhome{
+    display: flex;
+}
+
+.homedecor{
+    background-image: url("HomeDecor_2x._SY232_CB563137408_.jpg");
+    height: 115px;
+    width: 155px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.bedding{
+    background-image: url("Bedding_2x._SY232_CB563137408_.jpg");
+    height: 115px;
+    width: 155px;
+    background-size: cover;
+}
+
+.nameingtwo{
+    display: flex;
+    font-size: 0.7rem;
+    color: black;
+    justify-content: space-evenly;
+    margin-top: 1px;
+}
+
+.boximagekids{
+    background-image: url("kids.jpeg");
+    background-size: cover;
+    height: 300px ;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.boximagegc{
+    background-image: url("Gaming_zone_2x._SY608_CB540253513_.jpg");
+    background-size: cover;
+    height: 300px ;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+footer{
+    margin-top: 15px;
+}
+.footpannel1{
+    background-color: #37475A;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.footpannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 13px;
+}
+ul p {
+    font-weight: 1000;
+    margin-top: 5px;
+}
+
+.footpannel3{
+    background-color: #0f1111;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo1{
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    
+}
+
+
+.footpannel4{
+    background-color: #0f1111;
+    color: white;
+    height: 70px;
+}
+
+.pages{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyrights{
+    font-size: 0.8rem;
+    text-align: center;
+}
